@@ -16,13 +16,13 @@ if (n > comp)
 {
 printf("%u is positive\n", n);
 }
-else if (n == comp)
+else if (n < comp)
 {
-printf("%u is zero\n", n);
+printf("%u is negative\n", n);
 }
 else
 {
-printf("%u is negative\n", n);
+printf("%u is zero\n", n);
 }
 return (0);
 }
