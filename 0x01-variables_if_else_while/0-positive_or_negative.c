@@ -13,16 +13,10 @@ unsigned int comp = 0;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > comp)
-{
 printf("%u is positive\n", n);
-}
 else if (n < comp)
-{
 printf("%u is negative\n", n);
-}
-else
-{
+else if (n == comp) 
 printf("%u is zero\n", n);
-}
 return (0);
 }
