@@ -9,17 +9,18 @@
 int main(void)
 {
 int n;
+int comp = 0;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 0)
+if (n > comp)
 {
 printf("%u is positive\n", n);
 }
-else if (n == 0)
+else if (n == comp)
 {
 printf("%u is zero\n", n);
 }
-else if (n < 0)
+else
 {
 printf("%u is negative\n", n);
 }
