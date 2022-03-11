@@ -9,7 +9,7 @@
 int main(void)
 {
 unsigned int n;
-int comp = 0;
+unsigned int comp = 0;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > comp)
