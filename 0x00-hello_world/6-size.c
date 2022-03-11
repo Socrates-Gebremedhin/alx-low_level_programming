@@ -6,9 +6,15 @@
 */
 int main(void)
 {
-printf("Size of a char: 1 byte(s)\n");
-printf("Size of an int: 4 byte(s)\n");
-printf("Size of a long int: 8 byte(s)\n");
-printf("Size of a long long int: 8 byte(s)\n");
-printf("Size of a float: 4 byte(s)");
+int i;
+char c;
+long int  l;
+long long int ll;
+float f;
+printf("Size of a char: ", (unisigned long)sizeof(c)," byte(s)");
+printf("Size of a int: ", (unisigned long)sizeof(c)," byte(s)");
+printf("Size of a long int: ", (unisigned long)sizeof(c)," byte(s)");
+printf("Size of a long long int: ", (unisigned long)sizeof(c)," byte(s)");
+printf("Size of a float: ", (unisigned long)sizeof(c)," byte(s)");
 }
+
