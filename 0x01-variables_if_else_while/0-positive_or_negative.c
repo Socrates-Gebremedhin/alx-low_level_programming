@@ -15,7 +15,7 @@ if (n > 0)
 {
 printf("%u is positive\n", n);
 }
-else if (n < 0)
+else if (n == 0)
 {
 printf("%u is zero\n", n);
 }
